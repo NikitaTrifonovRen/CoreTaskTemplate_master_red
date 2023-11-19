@@ -20,13 +20,15 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="a07d61fa-c026-47cb-ad06-9a2d72a4b382" object-ref="consoles/Education" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="a07d61fa-c026-47cb-ad06-9a2d72a4b382" dataset="users.testhiber" active-filter-id="" />
     <filter-actions connection-id="a07d61fa-c026-47cb-ad06-9a2d72a4b382" dataset="users.testuser" active-filter-id="" />
     <filter-actions connection-id="a07d61fa-c026-47cb-ad06-9a2d72a4b382" dataset="users.user" active-filter-id="" />
+  </component>
+  <component name="DBNavigator.Project.ExecutionManager">
+    <retain-sticky-names value="false" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />

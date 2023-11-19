@@ -19,7 +19,7 @@ public class UserDaoJDBCImpl implements UserDao {
 
     public void createUsersTable() {
         PreparedStatement preparedStatement = null;
-        String sql = "CREATE TABLE testUser(id BIGINT NOT NULL, name VARCHAR(45), lastName VARCHAR(45), age INT, PRIMARY KEY (`id`));";
+        String sql = "CREATE TABLE testUser(id BIGINT NOT NULL AUTO_INCREMENT, name VARCHAR(45), lastName VARCHAR(45), age INT, PRIMARY KEY (`id`));";
         try{
             preparedStatement = connection.prepareStatement(sql);
             preparedStatement.executeUpdate();
